@@ -1,8 +1,8 @@
-import myAlert from "~/myAlert"
+import myAlert from '~/myAlert';
 
-function Button(){
-  const alert = "Xin chào!";
-  return <button onClick={() => myAlert(alert)}>Click me!</button>
+function Button() {
+  const alert = 'Xin chào!';
+  return <button onClick={() => myAlert(alert)}>Click me!</button>;
 }
 
-export default Button
+export default Button;
